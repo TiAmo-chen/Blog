@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -120,8 +120,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6842b987adc52066d0c3ab5ec88f181b68ecda7ebcd95dc178fc515fbd445092/68747470733a2f2f7475696c2d313331393235363137362e636f732e61702d7368616e676861692e6d7971636c6f75642e636f6d2f756e646566696e6564313730303536303438343939315f33393132464239362d433230462d346334362d394444392d3246363345363038313242462e706e67"><img src="https://camo.githubusercontent.com/6842b987adc52066d0c3ab5ec88f181b68ecda7ebcd95dc178fc515fbd445092/68747470733a2f2f7475696c2d313331393235363137362e636f732e61702d7368616e676861692e6d7971636c6f75642e636f6d2f756e646566696e6564313730303536303438343939315f33393132464239362d433230462d346334362d394444392d3246363345363038313242462e706e67" alt="1700560484991_3912FB96-C20F-4c46-9DD9-2F63E60812BF" data-canonical-src="https://tuil-1319256176.cos.ap-shanghai.myqcloud.com/undefined1700560484991_3912FB96-C20F-4c46-9DD9-2F63E60812BF.png" style="max-width: 100%;"></a></p>
 <p>qatra里面的文件夹结构，mode_config.json的路径</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://TiAmo-chen.github.io/Blog"> 橙心 </a>
 <p>
@@ -176,6 +178,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
